@@ -4,7 +4,45 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-  background-color: green;
+  font-family: 'Rubik Mono One', sans-serif;
 }
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  padding: 30px 15px;
+}
+.main-nav {
+  text-align: right;
+}
+.main-nav li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+}
+.main-nav li a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+  text-align: center;
+  line-height: 40px;
+  color: #000;
+}
+/* /Header */
+/* Main */
+.scarpe {
+  height: 100vh;
+}
+#scarpa-1 {
+  background-color: red;
+}
+
+/* /Main */
